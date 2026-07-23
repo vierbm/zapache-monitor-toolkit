@@ -1,0 +1,24 @@
+# Backup files
+*~
+*.bak
+*.old
+*.orig
+*.swp
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Test output
+output/
+
+# Compiled files
+*.pyc
