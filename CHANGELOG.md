@@ -1,12 +1,10 @@
 # Changelog
 
-## Version 2.0.0
-
-Initial GitHub project.
+## v2.0.0-alpha1
 
 ### Added
 
-- Project structure
+- Initial project structure
+- Shared common library
+- GitHub project
 - Documentation
-- Apache monitoring
-- Health check framework
