@@ -4,15 +4,22 @@ A comprehensive Apache monitoring toolkit for Zabbix.
 
 ## Features
 
-- Apache mod_status monitoring
-- HTTP 4xx and 5xx error detection
-- Intelligent Apache log parsing
-- Apache health checks
-- Zabbix Agent validation
+- Apache 2.2 / 2.4 support
 - Event, Worker and Prefork MPM support
-- Scoreboard analysis
-- Diagnostic toolkit
-- Bash-based with no external dependencies beyond standard system tools
+- Automatic log format detection
+- Automatic HTTP client detection (curl/wget)
+- Apache Scoreboard metrics
+- HTTP 4xx/5xx error monitoring
+- Zabbix UserParameter ready
+- Health check utility
+- Modular Bash library architecture
+- Production tested
+
+## Project Status
+
+Current Version: v2.0.0-alpha
+
+This project is under active development.
 
 ## Supported Platforms
 
