@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 #
 # apache.sh
@@ -253,3 +254,6 @@ apache_status_ok() {
 
     apache_metric Total\ Accesses >/dev/null
 }
+=======
+
+>>>>>>> 76506b1 (Continue development of apache library)
