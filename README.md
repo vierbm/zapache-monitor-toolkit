@@ -34,12 +34,24 @@ This project is under active development.
 
 | Component | Description |
 |-----------|-------------|
-| zabbix_apache | Zabbix UserParameter script |
-| test_zapache.sh | Apache and Zabbix health checker |
-| lib/ | Shared libraries |
+| bin/zabbix_apache | Main Zabbix UserParameter executable |
+| bin/test_zapache.sh | Apache health checker |
+| lib/ | Shared Bash libraries |
 | conf/ | Configuration files |
 | docs/ | Documentation |
 | tests/ | Test suite |
+
+## Installation Layout
+
+/usr/local/bin/
+    zabbix_apache
+    test_zapache
+
+/opt/zapache-monitor-toolkit/
+    lib/
+    docs/
+    samples/
+    examples/
 
 ## Roadmap
 

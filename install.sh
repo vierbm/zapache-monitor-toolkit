@@ -235,9 +235,15 @@ copy_files() {
 
     cp -r lib "$INSTALL_DIR"
 
-    cp zabbix_apache "$INSTALL_DIR"
+    cp bin/zabbix_apache "$INSTALL_DIR"
 
-    cp test_zapache.sh "$INSTALL_DIR"
+    cp bin/test_zapache.sh "$INSTALL_DIR"
+
+    cp -r examples "$INSTALL_DIR"
+
+    cp -r docs "$INSTALL_DIR"
+
+    cp -r samples "$INSTALL_DIR"
 
     chmod +x "$INSTALL_DIR/zabbix_apache"
 
